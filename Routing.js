@@ -1,14 +1,14 @@
 import express from "express"
-const rout = express.Router()
+const routing = express.Router()
 import * as calls from "./controllar/logic.js"
 
-rout.get("/read",calls.read)
-rout.post("/sign",calls.Sign)
-rout.post("/create",calls.create)
-rout.post("/login",calls.login)
-rout.post("/update",calls.update)
-rout.post("/verify",calls.Verify)
+routing.get("/read",calls.read)
+routing.post("/sign",calls.Sign)
+routing.post("/create",calls.create)
+routing.post("/login",calls.login)
+routing.post("/update",calls.update)
+routing.post("/verify",calls.Verify)
 
-export default rout
+export default routing
 
 
