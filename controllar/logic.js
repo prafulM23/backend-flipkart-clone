@@ -5,7 +5,7 @@ import nodemailer from "nodemailer"
 import jwt from "jsonwebtoken"
 
 const jwt_key = process.env.JWT_KEY;
-console.log("key",jwt_key);
+// console.log("key",jwt_key);
 const GenrateOtp = (length) => {
     let otp = "";
     for (let i = 0; i < length; i++) {

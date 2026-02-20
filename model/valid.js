@@ -7,4 +7,4 @@ const Flip_user = new mongoose.Schema({
     Verifed:{type:Boolean,default:false}
 })
 
-export default mongoose.model("User_data",Flip_user)
+export default mongoose.model("User_data",Flip_user, "User_data")
