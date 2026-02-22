@@ -4,7 +4,6 @@ import * as calls from "./controller/logic.js"
 
 routing.get("/read", calls.read)
 routing.post("/sign", calls.Sign)
-routing.post("/create", calls.create)
 routing.post("/login", calls.login)
 routing.post("/update", calls.update)
 routing.post("/verify", calls.Verify)
