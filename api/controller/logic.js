@@ -1,4 +1,3 @@
-import model from "../model/connect.js"
 import User from "../model/valid.js"
 import crypto from "crypto"
 import nodemailer from "nodemailer"
@@ -21,15 +20,6 @@ const transportar = nodemailer.createTransport({
         pass: process.env.APP_PASS
     }
 })
-
-export const create = async (req, res) => {
-    const { name, price, category, } = req.body;
-
-    await model.create(req.body)
-    console.log(name, price, category)
-    res.send("cerate ")
-
-}
 
 export const Verify = async (req, res) => {
     try {
