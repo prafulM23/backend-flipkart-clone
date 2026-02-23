@@ -1,0 +1,301 @@
+[
+    {
+        "id": 1,
+        "title": "Primium LCD",
+        "price": 35000,
+        "info": "65/75 inch TVs",
+        "Category": "appliance",
+        "image": "http://localhost:5000/images/lcd-remo.png",
+        "rating": 4.8,
+        "Description": "This high-quality LCD screen delivers sharp visuals, vibrant colors, and excellent brightness. Designed for durability and clarity, it provides a smooth viewing experience for videos, games, and daily use. Perfect for smartphones, monitors, or TVs, this LCD ensures energy efficiency and long-lasting performance with crystal-clear display quality."
+    },
+    {
+        "id": 2,
+        "title": "Washing Machine",
+        "image": "http://localhost:5000/images/washing.jpg",
+        "price": 20000,
+        "info": "LG 7Liter POwer Machine",
+        "Category": "appliance",
+        "Description": "This washing machine offers powerful cleaning with advanced technology and energy efficiency. Designed for convenience, it ensures gentle care for clothes while removing tough stains. With multiple wash modes, low noise operation, and a stylish design, it delivers fast, effective, and effortless laundry performance for every household."
+    },
+    {
+        "id": 3,
+        "title": "MicroWave",
+        "image": "http://localhost:5000/images/microwave.jpg",
+        "price": 5100,
+        "info": "5 Star Higher microwve",
+        "Category": "appliance",
+        "Description": "This microwave oven offers fast and efficient cooking with even heat distribution. Perfect for heating, grilling, and baking, it saves time and energy. With easy-to-use controls, multiple cooking modes, and a sleek modern design, it makes everyday cooking convenient, quick, and delicious for your kitchen."
+    },
+    {
+        "id": 4,
+        "title": "Air Conditioner",
+        "image": "http://localhost:5000/images/AC.jpg",
+        "price": 25999,
+        "info": "Best cooling Conditioner",
+        "Category": "appliance",
+        "Description": "This air conditioner provides powerful cooling with energy-efficient performance, keeping your room comfortable even in extreme heat. It features fast cooling technology, low noise operation, and advanced air filters for clean, fresh air. With a sleek design and smart controls, it ensures comfort, style, and convenience all year round."
+    },
+    {
+        "id": 5,
+        "title": "Mixer",
+        "image": "http://localhost:5000/images/mixer.jpg",
+        "price": 7540,
+        "info": "Hight Power Bolltage ",
+        "Category": "appliance",
+        "Description": "This mixer grinder offers powerful performance for blending, grinding, and mixing your ingredients with ease. Equipped with sharp stainless-steel blades and multiple speed settings, it ensures smooth results every time. Its durable design, easy operation, and compact size make it perfect for every modern kitchen."
+    },
+    {
+        "id": 6,
+        "title": "Laptop Bag",
+        "image": "http://localhost:5000/images/bags.webp",
+        "price": 840,
+        "info": "Fully WaterProf Bag",
+        "Category": "Deals",
+        "Description": "This laptop bag combines style, comfort, and protection. Made from durable, water-resistant material, it keeps your laptop safe from scratches and damage. With multiple compartments for accessories and a lightweight design, it’s perfect for travel, office, or college use — ensuring convenience and security on the go."
+    },
+    {
+        "id": 7,
+        "title": "Monitor",
+        "image": "http://localhost:5000/images/moniter.webp",
+        "price": 20000,
+        "info": "4K HD Amulad display",
+        "Category": "Deals",
+        "Description": "This monitor delivers crystal-clear visuals with vibrant colors and sharp details. Ideal for work, gaming, or entertainment, it offers a wide viewing angle and smooth performance. With an ergonomic design, energy efficiency, and sleek finish, it enhances your workspace while providing a comfortable and immersive viewing experience."
+    },
+    {
+        "id": 8,
+        "title": "Perfum",
+        "image": "http://localhost:5000/images/perfuam.webp",
+        "price": 350,
+        "info": "Best Every Fragnance",
+        "Category": "Deals",
+        "Description": "This perfume offers a long-lasting, refreshing fragrance that suits every occasion. Its elegant blend of floral, woody, and musky notes creates a unique scent that leaves a lasting impression. Perfect for daily wear or special events, it adds confidence and charm to your personality with every spray."
+    },
+    {
+        "id": 9,
+        "title": "Projector",
+        "image": "http://localhost:5000/images/projecter.webp",
+        "price": 2259,
+        "info": "Primum Show With ",
+        "Category": "Deals",
+        "Description": "This projector delivers bright, clear, and high-resolution visuals for movies, presentations, and gaming. Its compact design and easy connectivity make it perfect for home, office, or classroom use. Enjoy a cinematic experience anywhere with vibrant colors, sharp details, and powerful sound — ideal for both entertainment and work."
+    },
+    {
+        "id": 10,
+        "title": "WallClock",
+        "image": "http://localhost:5000/images/wallClocks.webp",
+        "price": 300,
+        "info": "Home Click ",
+        "Category": "Deals",
+        "Description": "This elegant wall clock adds style and functionality to any room. Designed with precise quartz movement for accurate timekeeping, it’s perfect for homes, offices, or classrooms. Its modern yet timeless look complements all interiors while being easy to hang and maintain. A perfect blend of decor and practicality."
+    },
+    {
+        "id": 11,
+        "title": "shoes",
+        "image": "http://localhost:5000/images/shoes.webp",
+        "price": 1200,
+        "info": "Running Fast And Comfortable",
+        "description": "Lightweight running shoes with cushioned sole, breathable material, and strong grip for daily workouts and jogging.",
+        "Category": "Favorites"
+    },
+    {
+        "id": 12,
+        "title": "Watch",
+        "image": "http://localhost:5000/images/watch.webp",
+        "price": 890,
+        "info": "Smart Watch 5star",
+        "description": "Smart watch with heart rate monitor, step tracking, Bluetooth calling, and long battery life for daily fitness tracking.",
+        "Category": "Favorites"
+    },
+    {
+        "id": 13,
+        "title": "Wireless",
+        "image": "http://localhost:5000/images/Wireless.webp",
+        "price": 610,
+        "info": "Primum Sound",
+        "description": "Wireless earbuds with deep bass, noise reduction, fast charging, and clear mic for calls and music.",
+        "Category": "Favorites"
+    },
+    {
+        "id": 14,
+        "title": "sleeper",
+        "image": "http://localhost:5000/images/sleeper2.webp",
+        "price": 359,
+        "info": "Walk Smothe",
+        "description": "Comfortable slippers with soft sole, anti-slip grip, and lightweight design for daily home and outdoor use.",
+        "Category": "Favorites"
+    },
+    {
+        "id": 15,
+        "title": "faceWash",
+        "image": "http://localhost:5000/images/face.webp",
+        "price": 540,
+        "info": "looks good",
+        "description": "Face wash with gentle formula that removes dirt, oil, and impurities, leaving skin fresh and glowing.",
+        "Category": "Favorites"
+    },
+    {
+        "id": 16,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt1.jpg",
+        "price": 840,
+        "info": "Men Slim Fit Casual Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 17,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt2.jpg",
+        "price": 250,
+        "info": "Men Regular Fit Collar Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 18,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt3.jpg",
+        "price": 430,
+        "info": "Men Slim Fit Casual Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 19,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt4.jpg",
+        "price": 540,
+        "info": "Striped Spread Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 20,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt5.jpg",
+        "price": 300,
+        "info": "Men Regular Fit Collar Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 21,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt6.jpg",
+        "price": 380,
+        "info": "Men Slim Fit Casual Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 28,
+        "title": "shirt",
+        "image": "http://localhost:5000/images/shirt7.jpg",
+        "price": 600,
+        "info": "Striped Spread Shirt",
+        "Category": "shirt",
+        "Description": "This stylish shirt offers a perfect blend of comfort and fashion. Made from premium-quality fabric, it provides a soft feel and all-day freshness. Its modern fit and elegant design make it ideal for both casual and formal occasions, giving you a smart and confident look wherever you go."
+    },
+    {
+        "id": 30,
+        "image": "http://localhost:5000/images/fashion2.webp",
+        "Category": "flex"
+    },
+    {
+        "id": 31,
+        "title": "I Phone16",
+        "image": "http://localhost:5000/images/i phone16.jpg",
+        "price": 69000,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 32,
+        "title": "Google Pixal9",
+        "image": "http://localhost:5000/images/googlepix9.jpg",
+        "price": 79999,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 33,
+        "title": "I Phone 16pro",
+        "image": "http://localhost:5000/images/i phone 16proEd.jpg",
+        "price": 105990,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 34,
+        "title": "Galaxy S24",
+        "image": "http://localhost:5000/images/galaxy24.jpg",
+        "price": 33999,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 35,
+        "title": "I Phone 14",
+        "image": "http://localhost:5000/images/i phone14.jpg",
+        "price": 54999,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 36,
+        "title": "I Phone 17pro",
+        "image": "http://localhost:5000/images/i phone17pro.jpg",
+        "price": 150000,
+        "Category": "Mobile",
+        "Description": "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
+    },
+    {
+        "id": 37,
+        "title": "I Phone 17pro",
+        "image": "http://localhost:5000/images/i phone17 remove.png",
+        "price": 150000,
+        "Category": "Special"
+    },
+    {
+        "name": "Minutes",
+        "image": "http://localhost:5000/images/bike.png",
+        "Category": "option"
+    },
+    {
+        "name": "Mobile&Tab",
+        "image": "http://localhost:5000/images/mobile-tab.png",
+        "Category": "option"
+    },
+    {
+        "name": "Fashion",
+        "image": "http://localhost:5000/images/fashion.png",
+        "Category": "option"
+    },
+    {
+        "name": "Electronics",
+        "image": "http://localhost:5000/images/lap-air.png",
+        "Category": "option"
+    },
+    {
+        "name": "Furniture",
+        "image": "http://localhost:5000/images/furniture.png",
+        "Category": "option"
+    },
+    {
+        "name": "Appliances",
+        "image": "http://localhost:5000/images/tvs.png",
+        "Category": "option"
+    },
+    {
+        "name": "Flight Bookings",
+        "image": "http://localhost:5000/images/airoplain.png",
+        "Category": "option"
+    },
+    {
+        "name": "Grocery",
+        "image": "http://localhost:5000/images/grocery.png",
+        "Category": "option"
+    }
+]

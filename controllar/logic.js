@@ -2,9 +2,10 @@ import User from "../model/valid.js"
 import crypto from "crypto"
 import nodemailer from "nodemailer"
 import jwt from "jsonwebtoken"
+import data from "./product.json" with {type: "json"}
 
-const jwt_key = process.env.JWT_KEY;
-// console.log("key",jwt_key);
+const jwt_key = "praful"
+
 const GenrateOtp = (length) => {
     let otp = "";
     for (let i = 0; i < length; i++) {
@@ -16,10 +17,11 @@ const GenrateOtp = (length) => {
 const transportar = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user: process.env.APP_USER,
-        pass: process.env.APP_PASS
+        user: "prafulm2310@gmail.com",
+        pass: "osfi dzvq mjis mztl"
     }
 })
+
 
 export const Verify = async (req, res) => {
     try {
@@ -73,10 +75,14 @@ export const Verify = async (req, res) => {
                 return console.log("error", err);
             } else {
                 console.log("email sent :");
+
             }
+
         })
         const token = jwt.sign({ getemail }, jwt_key, { expiresIn: "1h" });
         res.status(200).json({ msg: "OTP Verified Succesfully", token })
+
+
     } catch (error) {
         res.status(500).json("Server Not Response")
     }
@@ -99,8 +105,11 @@ export const Sign = async (req, res) => {
                 email,
                 otp,
                 otpExpiry: Date.now() + 5 * 60 * 1000
+
             })
+
         }
+
 
         const mailoption = {
             from: "prafulm2310@gmail.com",
@@ -125,12 +134,18 @@ export const Sign = async (req, res) => {
                 return console.log("error", err);
             } else {
                 console.log("email sent :");
+
             }
+
         })
         res.status(200).json({ msg: "OTP Sent Check email" })
+
+
+
     } catch (error) {
         res.status(500).json({ msg: "Server Not response" })
         console.log("error aa rhi he ")
+
     }
 }
 
@@ -204,4 +219,19 @@ export const update = (req, res) => {
     console.log("update")
     res.send("update ")
 
+}
+
+
+
+//All product Api give frontend **********************************************************
+export const allProduct = (req, res) => {
+    res.send(data)
+}
+
+
+export const singleProduct = (req, res) => {
+    const id = req.params.id;
+    const filtered = data.filter((item) => item.id == id)
+    console.log(id)
+    res.send(filtered)
 }
